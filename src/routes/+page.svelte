@@ -22,8 +22,10 @@
     .hero image {
         width: 20px;
     }
-
-    
+    a {color: white;}
+    a:hover {
+        color: #e91e63;
+    }
 </style>
 <script>
     import logo from '$lib/images/Logo.png'
