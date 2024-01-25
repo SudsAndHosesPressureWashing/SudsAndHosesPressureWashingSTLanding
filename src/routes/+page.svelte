@@ -6,13 +6,19 @@
         flex-direction: row;
         height: 100vh;
     }
-    .banner {
-        backdrop-filter: blur(40px);
 
+    .banner {
+        /* Fallback background color for browsers that do not support backdrop-filter */
+        background-color: rgba(150, 150, 150);
+
+        /* Check if backdrop-filter is supported */
+        @supports (backdrop-filter: blur(10px)) {
+            /* Apply styles using backdrop-filter if supported */
+            backdrop-filter: blur(10px);
+            background-color: rgba(150, 150, 150, 0.4); /* Adjust the color and transparency as needed */
+        }
     }
-    .hero h1 {
-        backdrop-filter: blur(50px);
-    }
+
     .hero image {
         width: 20px;
     }
