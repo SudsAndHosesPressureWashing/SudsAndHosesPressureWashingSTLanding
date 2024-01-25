@@ -24,7 +24,7 @@
     }
     a {color: white;}
     a:hover {
-        color: #e91e63;
+        color: #c80f0f;
     }
 </style>
 <script>
