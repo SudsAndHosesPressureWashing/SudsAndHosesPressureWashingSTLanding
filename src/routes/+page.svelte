@@ -35,7 +35,7 @@
     <div class="banner">
     <img src="{logo}" alt="Logo"/>    
     <h1>
-        We're working to build you a great page. In the meantime, feel free to call
+        We're working to build you a great website. In the meantime, feel free to call
         at <a href="tel:7048809955">(704) 880-9955</a>
     </h1>
 </div>
