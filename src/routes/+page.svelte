@@ -11,6 +11,7 @@
 padding: 10px;
         /* Fallback background color for browsers that do not support backdrop-filter */
         background-color: rgba(150, 150, 150);
+transform: skewY(-5deg);
 
         /* Check if backdrop-filter is supported */
         @supports (backdrop-filter: blur(10px)) {
