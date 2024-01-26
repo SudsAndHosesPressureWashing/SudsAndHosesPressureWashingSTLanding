@@ -8,30 +8,29 @@
     }
 
     .banner {
-padding: 10px;
-        /* Fallback background color for browsers that do not support backdrop-filter */
+        padding: 10px;
         background-color: rgba(150, 150, 150);
-
-
-        /* Check if backdrop-filter is supported */
         @supports (backdrop-filter: blur(10px)) {
-            /* Apply styles using backdrop-filter if supported */
             backdrop-filter: blur(10px);
-            background-color: rgba(150, 150, 150, 0.4); /* Adjust the color and transparency as needed */
+            background-color: rgba(150, 150, 150, 0.4); 
         }
     }
-.banner::after {
-   content: "";
-   transform: skewY(5deg);
-backdrop-filter: blur(10px);
-}
+
+    .banner::after {
+        content: "";
+        transform: skewY(15deg);
+        backdrop-filter: blur(10px);
+    }
 
     .hero img {
-        width: 150px;
-margin-left: auto;
-margin-right: auto;
+        width: 50vh;
+        margin-left: auto;
+        margin-right: auto;
     }
-    a {color: white;}
+    a {
+        color: white;
+        white-space: nowrap;
+    }
     a:hover {
         color: #c80f0f;
     }
