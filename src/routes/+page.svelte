@@ -8,6 +8,7 @@
     }
 
     .banner {
+padding: 10px;
         /* Fallback background color for browsers that do not support backdrop-filter */
         background-color: rgba(150, 150, 150);
 
@@ -20,7 +21,7 @@
     }
 
     .hero img {
-        width: min(calc(100vh-2rem),200px);
+        width: 80px;
 margin-left: auto;
 margin-right: auto;
     }
