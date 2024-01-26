@@ -19,8 +19,10 @@
         }
     }
 
-    .hero image {
-        width: 20px;
+    .hero img {
+        width: min(calc(100vh-2rem),200px);
+margin-left: auto;
+margin-right: auto;
     }
     a {color: white;}
     a:hover {
